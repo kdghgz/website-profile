@@ -17,7 +17,7 @@ function App() {
         </nav>
       </header>
 
-      {/* BERANDA */}
+      
       <main>
         <section id="beranda">
           <div>
@@ -44,7 +44,7 @@ function App() {
           </div>
         </section>
 
-        {/* TENTANG SAYA */}
+      
         <section id="tentang">
           <header>
             <h1>Tentang Saya</h1>
@@ -101,7 +101,7 @@ function App() {
           </div>
         </section>
 
-        {/* GALERI */}
+        
         <section id="galeri">
           <header>
             <h1>Portofolio</h1>
@@ -189,7 +189,7 @@ function App() {
           </div>
         </section>
 
-        {/* KONTAK */}
+       
         <section id="kontak">
           <header>
             <h1>Kontak</h1>
@@ -232,7 +232,7 @@ function App() {
         </section>
       </main>
 
-      {/* FOOTER */}
+   
       <footer>
         <p>
           © 2026 Portofolio Kayla Haniifa Irli.
