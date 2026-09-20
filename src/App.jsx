@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* NAVBAR */}
+
       <header>
         <nav>
           <h2>A GLIMPSE INTO MY WORLD</h2>
