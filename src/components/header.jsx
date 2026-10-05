@@ -1,19 +1,16 @@
-function HeaderComponent () {
-    return (
-      <header>
-        <nav>
-          <h2>A GLIMPSE INTO MY WORLD</h2>
+import { Link } from 'react-router-dom'
 
-          <ul>
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#tentang">Tentang Saya</a></li>
-            <li><a href="#galeri">Galeri</a></li>
-            <li><a href="#kontak">Kontak</a></li>
-          </ul>
-        </nav>
-      </header>
-    )
+function HeaderComponent() {
+  return (
+    <header>
+      <nav>
+        <Link to="/">Beranda</Link>
+        <Link to="/about">Tentang</Link>
+        <Link to="/gallery">Galeri</Link>
+        <Link to="/contact">Kontak</Link>
+      </nav>
+    </header>
+  )
 }
 
-export default HeaderComponent;
-
+export default HeaderComponent
